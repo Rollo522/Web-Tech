@@ -1,29 +1,48 @@
-<script>
-  const recipes = [
-    {id: 1, name: "Recipe 1", image: "recipe1.jpg"},
-    {id: 2, name: "Recipe 2", image: "recipe2.jpg"},
-    {id: 3, name: "Recipe 3", image: "recipe3.jpg"},
-    {id: 4, name: "Recipe 4", image: "recipe4.jpg"},
-    {id: 5, name: "Recipe 5", image: "recipe5.jpg"},
-    {id: 6, name: "Recipe 6", image: "recipe6.jpg"},
-    {id: 7, name: "Recipe 7", image: "recipe7.jpg"},
-  ];
+// Get references to the different pages
+const homePage = document.getElementById("homePage");
+const recipePage = document.getElementById("recipePage");
+const aboutPage = document.getElementById("aboutPage");
+const socialPage = document.getElementById("socialPage");
 
-  const handleImageClick = (id) => {
-    window.location.href = `./recipe.html?id=${id}`;
-  };
-</script>
+// Get references to the navigation links
+const homeLink = document.getElementById("homeLink");
+const recipeLink = document.getElementById("recipeLink");
+const aboutLink = document.getElementById("aboutLink");
+const socialLink = document.getElementById("socialLink");
 
-<div id="home-page">
-  <h1>Welcome to our Recipe Website</h1>
-  <p>Choose a recipe from the images below:</p>
-  <div id="recipe-images">
-    <img src="recipe1.jpg" onclick="handleImageClick(1)" />
-    <img src="recipe2.jpg" onclick="handleImageClick(2)" />
-    <img src="recipe3.jpg" onclick="handleImageClick(3)" />
-    <img src="recipe4.jpg" onclick="handleImageClick(4)" />
-    <img src="recipe5.jpg" onclick="handleImageClick(5)" />
-    <img src="recipe6.jpg" onclick="handleImageClick(6)" />
-    <img src="recipe7.jpg" onclick="handleImageClick(7)" />
-  </div>
-</div>
+// Hide all pages except for the home page when the page loads
+recipePage.style.display = "none";
+aboutPage.style.display = "none";
+socialPage.style.display = "none";
+
+// Show the home page when the home link is clicked
+homeLink.addEventListener("click", function() {
+  homePage.style.display = "block";
+  recipePage.style.display = "none";
+  aboutPage.style.display = "none";
+  socialPage.style.display = "none";
+});
+
+// Show the recipe page when the recipe link is clicked
+recipeLink.addEventListener("click", function() {
+  homePage.style.display = "none";
+  recipePage.style.display = "block";
+  aboutPage.style.display = "none";
+  socialPage.style.display = "none";
+});
+
+// Show the about page when the about link is clicked
+aboutLink.addEventListener("click", function() {
+  homePage.style.display = "none";
+  recipePage.style.display = "none";
+  aboutPage.style.display = "block";
+  socialPage.style.display = "none";
+});
+
+// Show the social page when the social link is clicked
+socialLink.addEventListener("click", function() {
+  homePage.style.display = "none";
+  recipePage.style.display = "none";
+  aboutPage.style.display = "none";
+  socialPage.style.display = "block";
+});
