@@ -17,14 +17,6 @@ header h1 {
   margin: 0;
 }
 
-<ul style="list-style-type: none; display: flex;">
-  <li style="margin-right: 20px;"><a href="index.html">Home</a></li>
-  <li style="margin-right: 20px;"><a href="popular-dishes.html">Popular Dishes</a></li>
-  <li style="margin-right: 20px;"><a href="recipes.html">Recipes</a></li>
-  <li style="margin-right: 20px;"><a href="our-history.html">Our History</a></li>
-  <li><a href="contact-us.html">Contact Us</a></li>
-</ul>
-
 
 a {
   text-decoration: none;
