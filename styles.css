@@ -25,6 +25,25 @@ nav ul {
   justify-content: space-between;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+
 
 header nav a {
   color: white;
