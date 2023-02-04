@@ -53,7 +53,7 @@ main {
 
 .recipe-card {
   background-color: rgba(255,0,0,0.3);
-  color: red;
+  color: green;
   padding: 20px;
   margin-bottom: 20px;
   cursor: pointer;
@@ -87,7 +87,7 @@ main {
 
 footer {
   background-color: purple;
-  color: red;
+  color: rgba(21, 182, 115, 0.8);
   text-align: center;
   padding: 20px;
 }
