@@ -13,20 +13,19 @@
     </header>
   <h2>Contact Us</h2>
   <p>If you have any questions or comments, please don't hesitate to get in touch with us. Our customer service team is always happy to help!</p>
-  <form action="#">
+    
+<form action="submit-contact-form.php" method="post">
+  <div>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
-    <div class="contact-us">
-  <form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    <br><br>
+  </div>
+  <div>
     <label for="email">Email:</label>
     <input type="email" id="email" name="email" required>
-    <br><br>
+  </div>
+  <div>
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="5" required></textarea>
-    <br><br>
-    <button type="submit">Submit</button>
-  </form>
-</div>
+  </div>
+  <button type="submit">Submit</button>
+</form>
