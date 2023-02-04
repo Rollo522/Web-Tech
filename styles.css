@@ -58,7 +58,7 @@ main {
   margin-bottom: 20px;
   cursor: pointer;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(21, 182, 115, 0.8);
 }
 
 .recipe-expanded {
