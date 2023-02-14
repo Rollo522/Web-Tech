@@ -1,5 +1,6 @@
 
 body {
+  list-style-position: inside;
   text-align: center;
   font-family: Arial, sans-serif;
   margin: 0;
