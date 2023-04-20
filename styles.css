@@ -3,11 +3,11 @@ body {
   list-style-position: inside;
   text-align: center;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: ato;
   background-color: #cddd187a;
   height: 100%;
-  overflow: auto;
+  overflow: overflow;
 }
 
 header {
