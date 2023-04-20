@@ -53,7 +53,10 @@ header nav a:hover {
 }
 
 main {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
+  text-align: left;
 }
 
 .recipe-card {
@@ -64,11 +67,24 @@ main {
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(21, 182, 115, 0.8);
+  text-align: center
+}
+
+
+.recipe-card h2 {
+  margin-top: 0;
 }
 
 .recipe-expanded {
+  .recipe-expanded
   display: none;
+  text-align: left;
 }
+
+.recipe-expanded p {
+  text-indent: 20px;
+}
+  
 
 #contact-us form input,
 #contact-us form textarea {
