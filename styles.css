@@ -1,18 +1,17 @@
+/* Reset Styles */
 
 body {
-  list-style-position: inside;
-  text-align: center;
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
-  margin: auto;
-  padding: ato;
-  background-color: #cddd187a;
-  height: 100%;
-  overflow: overflow;
+  background-color: #e0e0e0;
 }
 
+/* Header Styles */
+
 header {
-  background-color: black;
-  color: white;
+  background-color: #333;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,19 +20,17 @@ header {
 
 header h1 {
   margin: 0;
+  font-size: 24px;
 }
 
-
-a {
-  text-decoration: none;
-  color: black;
+h2 {
+  text-align: center;
 }
-
 
 header nav ul {
-  list-style-type: none; 
+  list-style-type: none;
   display: flex;
-  margin: 9;
+  margin: 0;
   padding: 0;
 }
 
@@ -42,7 +39,7 @@ header nav li {
 }
 
 header nav a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   padding: 10px 20px;
   display: block;
@@ -52,43 +49,141 @@ header nav a:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Main Content Styles */
+
 main {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
-  text-align: left;
+  padding: 40px;
+  text-align: center;
 }
 
-.recipe-card {
-  background-color: #19de1283;
-  color: green;
-  padding: 20px;
+.hero-section {
   margin-bottom: 40px;
-  cursor: pointer;
-  border-radius: 20px;
-  box-shadow: 0 8px 6px rgba(21, 182, 115, 0.8);
-  text-align: center
 }
 
-.recipe-card img {
+.hero-section img {
   max-width: 100%;
-  height: 300px;
+  height: auto;
+  border-radius: 10px;
 }
 
-.recipe-card h2 {
-  margin-top: 0;
+.hero-section h2 {
+  margin-top: 20px;
+  font-size: 32px;
 }
 
-.recipe-expanded {
-  .recipe-expanded 
-  display: none;
+.hero-section p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+.usps {
+  margin-bottom: 40px;
+}
+
+.usps h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.usps ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 0;
+}
+
+.usps li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.reviews {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.reviews h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reviews ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reviews li {
+  margin-bottom: 20px;
   text-align: left;
 }
 
-.recipe-expanded p {
-  text-indent: 20px;
+.reviews p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
 }
-  
+
+.reviews p:last-child {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.portfolio {
+  margin-bottom: 40px;
+}
+
+.portfolio h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.portfolio ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio li {
+  margin: 0 10px;
+}
+
+.portfolio img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cta {
+  margin-bottom: 40px;
+}
+
+.cta h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Contact Form Styles */
 
 #contact-us form input,
 #contact-us form textarea {
@@ -100,19 +195,59 @@ main {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-  
-#contact-us form button {
-  background-color: black;
-  color: blue;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+
+.recipes ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-footer {
-  background-color: #19de1283;
-  color: rgba(21, 182, 115, 0.8);
-  text-align: center;
-  padding: 20px;
+.recipes ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
+.recipes .ingredient-list li,
+.recipes .instruction-list li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  max-width: 200%;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 30px 20px rgba(51, 43, 43, 0.1);
+  margin-bottom: 20px;
+}
+
+.recipe-card img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 70px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.recipe-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recipe-card p {
+  font-size: 18px;
+  color: #555;
+}
+
+.recipe-card .rating {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Optional: Add additional styles as needed */

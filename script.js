@@ -1,48 +1,45 @@
-// Get references to the different pages
-const homePage = document.getElementById("homePage");
-const recipePage = document.getElementById("recipePage");
-const aboutPage = document.getElementById("aboutPage");
-const socialPage = document.getElementById("socialPage");
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'd57b42748bmsh93df9458a530595p15c0c0jsne348b07bec41',
+		'X-RapidAPI-Host': 'edamam-recipe-search.p.rapidapi.com'
+	}
+};
 
-// Get references to the navigation links
-const homeLink = document.getElementById("homeLink");
-const recipeLink = document.getElementById("recipeLink");
-const aboutLink = document.getElementById("aboutLink");
-const socialLink = document.getElementById("socialLink");
+// Call the getRecipes function on button press
+document.getElementById('recipe-search-button').addEventListener('click', function() {getRecipes()} );
 
-// Hide all pages except for the home page when the page loads
-recipePage.style.display = "none";
-aboutPage.style.display = "none";
-socialPage.style.display = "none";
+var form = document.getElementById('recipe-form');
+function handleForm(event) { event.preventDefault(); }
+form.addEventListener('submit', handleForm);
 
-// Show the home page when the home link is clicked
-homeLink.addEventListener("click", function() {
-  homePage.style.display = "block";
-  recipePage.style.display = "none";
-  aboutPage.style.display = "none";
-  socialPage.style.display = "none";
-});
+function getRecipes() {
 
-// Show the recipe page when the recipe link is clicked
-recipeLink.addEventListener("click", function() {
-  homePage.style.display = "none";
-  recipePage.style.display = "block";
-  aboutPage.style.display = "none";
-  socialPage.style.display = "none";
-});
+  var input = document.getElementById('recipe-search').value;
+  console.log(input);
+  fetch(`https://edamam-recipe-search.p.rapidapi.com/search?q=${input}`, options)
+  .then(response => response.json())
+  .then(response => {obj = response;})
+  .then(response => console.log(obj))
+  .then(response => listRecipes(obj))
+  .catch(err => console.error(err));
+}
 
-// Show the about page when the about link is clicked
-aboutLink.addEventListener("click", function() {
-  homePage.style.display = "none";
-  recipePage.style.display = "none";
-  aboutPage.style.display = "block";
-  socialPage.style.display = "none";
-});
 
-// Show the social page when the social link is clicked
-socialLink.addEventListener("click", function() {
-  homePage.style.display = "none";
-  recipePage.style.display = "none";
-  aboutPage.style.display = "none";
-  socialPage.style.display = "block";
-});
+
+function listRecipes(Recipes) {
+  // Get the number of hits
+  var container = document.getElementById('recipes');
+
+  // Loop over each hit
+  for (var i = 0; i < Recipes.hits.length; i++) {
+    // create container div in recipes 
+    var img = document.createElement('img');
+    img.src = Recipes.hits[i].recipe.image;
+    document.body.appendChild(img);
+
+    
+    //  create div content 
+  
+  }
+}
