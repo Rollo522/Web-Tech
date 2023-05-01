@@ -1,85 +1,83 @@
 /* Reset Styles */
-
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #e0e0e0;
-}
-
-/* Header Styles */
-
-header {
+  }
+  
+  /* Header Styles */
+  header {
   background-color: #333;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-}
-
-header h1 {
+  }
+  
+  header h1 {
   margin: 0;
   font-size: 24px;
-}
-
-h2 {
+  }
+  
+  h2 {
   text-align: center;
-}
-
-header nav ul {
+  }
+  
+  header nav ul {
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
-}
-
-header nav li {
+  }
+  
+  header nav li {
   margin-right: 20px;
-}
-
-header nav a {
+  }
+  
+  header nav a {
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
   display: block;
-}
-
-header nav a:hover {
+  }
+  
+  header nav a:hover {
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-/* Main Content Styles */
-
-main {
+  }
+  
+  /* Main Content Styles */
+  
+  main {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
   text-align: center;
-}
-
-.hero-section {
+  }
+  
+  .hero-section {
   margin-bottom: 40px;
-}
-
-.hero-section img {
+  }
+  
+  .hero-section img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-}
-
-.hero-section h2 {
+  }
+  
+  .hero-section h2 {
   margin-top: 20px;
   font-size: 32px;
-}
-
-.hero-section p {
+  }
+  
+  .hero-section p {
   margin-top: 10px;
   font-size: 18px;
   color: #555;
-}
-
-.cta-button {
+  }
+  
+  .cta-button {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
@@ -88,166 +86,1649 @@ main {
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
+  }
+  
+  .cta-button:hover {
   background-color: #555;
-}
-
-.usps {
+  }
+  
+  .usps {
   margin-bottom: 40px;
-}
-
-.usps h3 {
+  }
+  
+  .usps h3 {
   font-size: 24px;
   margin-bottom: 10px;
-}
-
-.usps ul {
+  }
+  
+  .usps ul {
   list-style-type: none;
   margin: 100;
   padding: 0;
-}
-
-.usps li {
+  }
+  
+  .usps li {
   margin-bottom: 10px;
   font-size: 18px;
   color: #555;
-}
-
-.reviews {
+  }
+  
+  .reviews {
   margin-bottom: 40px;
   text-align: center;
-}
-
-.reviews h3 {
+  }
+  
+  .reviews h3 {
   font-size: 24px;
   margin-bottom: 20px;
-}
-
-.reviews ul {
+  }
+  
+  .reviews ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.reviews li {
+  }
+  
+  .reviews li {
   margin-bottom: 20px;
   text-align: left;
-}
-
-.reviews p {
+  }
+  
+  .reviews p {
   font-size: 18px;
   color: #555;
   text-align: center;
-}
-
-.reviews p:last-child {
+  }
+  
+  .reviews p:last-child {
   margin-top: 10px;
   font-weight: bold;
-}
-
-.portfolio {
+  }
+  
+  .portfolio {
   margin-bottom: 40px;
-}
-
-.portfolio h3 {
+  }
+  
+  .portfolio h3 {
   font-size: 24px;
   margin-bottom: 20px;
-}
-
-.portfolio ul {
+  }
+  
+  .portfolio ul {
   list-style-type: none;
   margin: 20px;
   padding: 0;
   display: flex;
   justify-content: center;
-}
-
-.portfolio li {
+  }
+  
+  .portfolio li {
   margin: 0 10px;
-}
-
-.portfolio img {
+  }
+  
+  .portfolio img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-}
-
-.cta {
-  margin-bottom: 40px;
-}
-
-.cta h2 {
+  }
+  
+  .cta {
+  margin-bottom: 40
+  
+  
+  
+  
+  
+  User
+  continue
+  ChatGPT
+  Sure! Here's the updated CSS incorporating the new HTML elements:
+  
+  /* Reset Styles */
+  
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  }
+  
+  /* Header Styles */
+  
+  header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  }
+  
+  header h1 {
+  margin: 0;
   font-size: 24px;
-  margin-bottom: 20px;
-}
-
-/* Contact Form Styles */
-
-#contact-us form input,
-#contact-us form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  box-sizing: border-box;
+  }
+  
+  h2 {
+  text-align: center;
+  }
+  
+  header nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header nav li {
+  margin-right: 20px;
+  }
+  
+  header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  }
+  
+  header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Main Content Styles */
+  
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  }
+  
+  .hero-section {
+  margin-bottom: 40px;
+  }
+  
+  .hero-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .hero-section h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  }
+  
+  .hero-section p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
   border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-.recipes ul {
+  transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+  background-color: #555;
+  }
+  
+  .usps {
+  margin-bottom: 40px;
+  }
+  
+  .usps h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  .usps ul {
   list-style-type: none;
-  margin: 0;
+  margin: 100;
   padding: 0;
-}
-
-.recipes ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.recipes .ingredient-list li,
-.recipes .instruction-list li {
+  }
+  
+  .usps li {
   margin-bottom: 10px;
   font-size: 18px;
-  color: #000000;
-}
-
-.recipe-card {
+  color: #555;
+  }
+  
+  .reviews {
+  margin-bottom: 40px;
+  text-align: center;
+  }
+  
+  .reviews h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .reviews ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .reviews li {
+  margin-bottom: 20px;
+  text-align: left;
+  }
+  
+  .reviews p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  }
+  
+  .reviews p:last-child {
+  margin-top: 10px;
+  font-weight: bold;
+  }
+  
+  .portfolio {
+  margin-bottom: 40px;
+  }
+  
+  .portfolio h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .portfolio ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .portfolio li {
+  margin: 0 10px;
+  }
+  
+  .portfolio img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .cta {
+  margin-bottom: 40px;
+  }
+  
+  .cta h
+  
+  
+  
+  
+  
+  User
+  continue
+  ChatGPT
+  Sure! Here's the CSS for the remaining sections:
+  
+  /* Featured Recipes */
+  .featured-recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  }
+  
+  .featured-recipes .recipe-card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  }
+  
+  /* Recipe Categories or Types */
+  .recipe-categories {
+  margin-bottom: 40px;
+  }
+  
+  .recipe-categories h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .recipe-categories ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  
+  .recipe-categories li {
+  margin: 10px;
+  }
+  
+  .recipe-categories a {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  }
+  
+  /* Popular Recipes */
+  .popular-recipes {
+  margin-bottom: 40px;
+  }
+  
+  .popular-recipes h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .popular-recipes ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .popular-recipes li {
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  }
+  
+  .popular-recipes img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  }
+  
+  .popular-recipes p {
+  font-size: 18px;
+  color: #555;
+  }
+  
+  /* Interactive Recipe Search */
+  #recipe-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  }
+  
+  #recipe-search {
+  flex-basis: calc(100% - 300px);
+  }
+  
+  #recipe-form select {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 10px;
+  }
+  
+  #recipe-search-button {
+  flex-basis: 100%;
+  margin-top: 10px;
+  margin-bottom: 0;
+  }
+  
+  /* Blog or News Section */
+  .blog-section {
+  margin-bottom: 40px;
+  }
+  
+  .blog-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .blog-section .article-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+  .blog-section .article-card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  }
+  
+  .blog-section .article-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  }
+  
+  .blog-section .article-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  }
+  
+  .blog-section .article-card p {
+  font-size: 16px;
+  color: #555;
+  }
+  
+  /* Video Tutorials */
+  .video-tutorials {
+  margin-bottom: 40px;
+  }
+  
+  .video-tutorials h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .video-tutorials .video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+  .video-tutorials .video-card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  }
+  
+  .video-tutorials .video-card img {
+  max-width: 100%;
+  height:
+  
+  
+  
+  
+  
+  User
+  continue
+  ChatGPT
+  Sure, here is the updated CSS incorporating the changes:
+  
+  /* Reset Styles */
+  
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  }
+  
+  /* Header Styles */
+  
+  header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  }
+  
+  header h1 {
+  margin: 0;
+  font-size: 24px;
+  }
+  
+  h2 {
+  text-align: center;
+  }
+  
+  header nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header nav li {
+  margin-right: 20px;
+  }
+  
+  header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  }
+  
+  header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Main Content Styles */
+  
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  }
+  
+  .hero-section {
+  margin-bottom: 40px;
+  }
+  
+  .hero-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .hero-section h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  }
+  
+  .hero-section p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+  background-color: #555;
+  }
+  
+  .usps {
+  margin-bottom: 40px;
+  }
+  
+  .usps h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  .usps ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 0;
+  }
+  
+  .usps li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .reviews {
+  margin-bottom: 40px;
+  text-align: center;
+  }
+  
+  .reviews h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .reviews ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .reviews li {
+  margin-bottom: 20px;
+  text-align: left;
+  }
+  
+  .reviews p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  }
+  
+  .reviews p:last-child {
+  margin-top: 10px;
+  font-weight: bold;
+  }
+  
+  .portfolio {
+  margin-bottom: 40px;
+  }
+  
+  .portfolio h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .portfolio ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .portfolio li {
+  margin: 0 10px;
+  }
+  
+  .portfolio img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .cta {
+  margin-bottom: 40px;
+  }
+  
+  .cta h2 {
+  
+  
+  
+  
+  
+  User
+  continue
+  ChatGPT
+  Sure! Here's the updated CSS for your recipe page HTML:
+  
+  /* Reset Styles */
+  
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  }
+  
+  /* Header Styles */
+  
+  header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  }
+  
+  header h1 {
+  margin: 0;
+  font-size: 24px;
+  }
+  
+  h2 {
+  text-align: center;
+  }
+  
+  header nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header nav li {
+  margin-right: 20px;
+  }
+  
+  header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  }
+  
+  header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Main Content Styles */
+  
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  }
+  
+  .hero-section {
+  margin-bottom: 40px;
+  }
+  
+  .hero-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .hero-section h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  }
+  
+  .hero-section p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+  background-color: #555;
+  }
+  
+  .usps {
+  margin-bottom: 40px;
+  }
+  
+  .usps h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  .usps ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 0;
+  }
+  
+  .usps li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .reviews {
+  margin-bottom: 40px;
+  text-align: center;
+  }
+  
+  .reviews h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .reviews ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .reviews li {
+  margin-bottom: 20px;
+  text-align: left;
+  }
+  
+  .reviews p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  }
+  
+  .reviews p:last-child {
+  margin-top: 10px;
+  font-weight: bold;
+  }
+  
+  .portfolio {
+  margin-bottom: 40px;
+  }
+  
+  .portfolio h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .portfolio ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .portfolio li {
+  margin: 0 10px;
+  }
+  
+  .portfolio img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .cta {
+  margin-bottom: 40px;
+  }
+  
+  .cta h
+  
+  
+  
+  
+  
+  User
+  continue
+  ChatGPT
+  Sure! Here's the updated CSS with the changes and additions:
+  
+  /* Reset Styles */
+  
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  }
+  
+  /* Header Styles */
+  
+  header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  }
+  
+  header h1 {
+  margin: 0;
+  font-size: 24px;
+  }
+  
+  h2 {
+  text-align: center;
+  }
+  
+  header nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header nav li {
+  margin-right: 20px;
+  }
+  
+  header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  }
+  
+  header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Main Content Styles */
+  
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  }
+  
+  .hero-section {
+  margin-bottom: 40px;
+  }
+  
+  .hero-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .hero-section h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  }
+  
+  .hero-section p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+  background-color: #555;
+  }
+  
+  .usps {
+  margin-bottom: 40px;
+  }
+  
+  .usps h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  .usps ul {
+  list-style-type: none;
+  margin: 100;
+  padding: 0;
+  }
+  
+  .usps li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .reviews {
+  margin-bottom: 40px;
+  text-align: center;
+  }
+  
+  .reviews h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .reviews ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .reviews li {
+  margin-bottom: 20px;
+  text-align: left;
+  }
+  
+  .reviews p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  }
+  
+  .reviews p:last-child {
+  margin-top: 10px;
+  font-weight: bold;
+  }
+  
+  .portfolio {
+  margin-bottom: 40px;
+  }
+  
+  .portfolio h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .portfolio ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .portfolio li {
+  margin: 0 10px;
+  }
+  
+  .portfolio img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .cta {
+  margin-bottom: 40px;
+  }
+  
+  .cta h
+  
+  
+  
+  
+  
+  User
+  continue
+  ChatGPT
+  Sure! Here's the updated CSS with the changes and additions you requested:
+  
+  /* Reset Styles */
+  
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  }
+  
+  /* Header Styles */
+  
+  header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  }
+  
+  header h1 {
+  margin: 0;
+  font-size: 24px;
+  }
+  
+  h2 {
+  text-align: center;
+  }
+  
+  header nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header nav li {
+  margin-right: 20px;
+  }
+  
+  header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  }
+  
+  header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Main Content Styles */
+  
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  }
+  
+  /* Hero Section Styles */
+  
+  .hero-section {
+  margin-bottom: 40px;
+  position: relative;
+  }
+  
+  .hero-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+  
+  .hero-section h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-section p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-section .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  }
+  
+  .hero-section .cta-button:hover {
+  background-color: #f2f2f2;
+  }
+  
+  /* Recipe Card Styles */
+  
+  .recipe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  }
+  
+  .recipe-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+  
+  .recipe-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  }
+  
+  .recipe-card p {
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .recipe-card .rating {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+  
+  /* Recipes Section Styles */
+  
+  .recipes ul,
+  .recipes ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .recipes .ingredient-list li,
+  .recipes .instruction-list li {
+  margin-bottom: 10px;
+  
+  
+  
+  
+  
+  User
+  continue
+  ChatGPT
+  Sure, here's the updated CSS for the recipe page HTML you provided:
+  
+  /* Reset Styles */
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  }
+  
+  /* Header Styles */
+  header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  }
+  
+  header h1 {
+  margin: 0;
+  font-size: 24px;
+  }
+  
+  header nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  }
+  
+  header nav li {
+  margin-right: 20px;
+  }
+  
+  header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  }
+  
+  header nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Main Content Styles */
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  }
+  
+  .recipe-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f5f5f5;
-  max-width: 200%;
+  max-width: 800px;
   padding: 20px;
-  border-radius: 40px;
-  box-shadow: 0 30px 20px rgba(51, 43, 43, 0.1);
-  margin-bottom: 20px;
-}
-
-.recipe-card img {
-  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  }
+  
+  .recipe-card img {
+  max-width: 100%;
   height: auto;
-  border-radius: 70px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-.recipe-card h3 {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+  
+  .recipe-card h3 {
   font-size: 24px;
   margin-bottom: 10px;
-}
-
-.recipe-card p {
+  }
+  
+  .recipe-card p {
   font-size: 18px;
   color: #555;
-}
-
-.recipe-card .rating {
+  }
+  
+  .recipe-card .rating {
   margin-top: 10px;
   margin-bottom: 20px;
+  }
+  
+  .recipes h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  }
+  
+  .recipes .recipe-section {
+  margin-bottom: 40px;
+  text-align: left;
+  }
+  
+  .recipes .recipe-section h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+  
+  .recipes .ingredient-list li,
+  .recipes .instruction-list li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+  }
+  
+  .recipes #recipe-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .recipes #recipe-search {
+  width: 100%;
+  max-width: 500px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  }
+  
+  .recipes select {
+  max-width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  }
+  
+  .recipes #recipe-search-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color
+
+  * Reset Styles */
+
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #e0e0e0;
 }
 
-/* Optional: Add additional styles as needed */
+/* Header Styles */
+
+header {
+background-color: #333;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+header h1 {
+margin: 0;
+font-size: 24px;
+}
+
+h2 {
+text-align: center;
+}
+
+header nav ul {
+list-style-type: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+header nav li {
+margin-right: 20px;
+}
+
+header nav a {
+color: #fff;
+text-decoration: none;
+padding: 10px 20px;
+display: block;
+}
+
+header nav a:hover {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Main Content Styles */
+
+main {
+max-width: 800px;
+margin: 0 auto;
+padding: 40px;
+text-align: center;
+}
+
+.hero-section {
+margin-bottom: 40px;
+}
+
+.hero-section img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+.hero-section h2 {
+margin-top: 20px;
+font-size: 32px;
+}
+
+.hero-section p {
+margin-top: 10px;
+font-size: 18px;
+color: #555;
+}
+
+.cta-button {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+background-color: #555;
+}
+
+.usps {
+margin-bottom: 40px;
+}
+
+.usps h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.usps ul {
+list-style-type: none;
+margin: 100;
+padding: 0;
+}
+
+.usps li {
+margin-bottom: 10px;
+font-size: 18px;
+color: #555;
+}
+
+.reviews {
+margin-bottom: 40px;
+text-align: center;
+}
+
+.reviews h3 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.reviews ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.reviews li {
+margin-bottom: 20px;
+text-align: left;
+}
+
+.reviews p {
+font-size: 18px;
+color: #555;
+text-align: center;
+}
+
+.reviews p:last-child {
+margin-top: 10px;
+font-weight: bold;
+}
+
+.portfolio {
+margin-bottom: 40px;
+}
+
+.portfolio h3 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.portfolio ul {
+list-style-type: none;
+margin: 20px;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+.portfolio li {
+margin: 0 10px;
+}
+
+.portfolio img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+.cta {
+margin-bottom: 40px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .footer-content i {
+  margin-right: 20px;
+  font-size: 16px;
+  }
+  
+  .social-media {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .social-media a {
+  margin: 0 10px;
+  color: #fff;
+  }
+  
+  .social-media a:hover {
+  color: #ccc;
+  }
+  
+  .footer-bottom {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 768px) {
+  header {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  
+  header h1 {
+  margin-bottom: 20px;
+  }
+  
+  header nav {
+  margin-top: 20px;
+  }
+  
+  main {
+  padding: 20px;
+  }
+  
+  .hero-section h2 {
+  font-size: 24px;
+  }
+  
+  .hero-section p {
+  font-size: 16px;
+  }
+  
+  .usps h3 {
+  font-size: 20px;
+  }
+  
+  .usps li {
+  font-size: 16px;
+  }
+  
+  .reviews h3 {
+  font-size: 20px;
+  }
+  
+  .reviews li {
+  font-size: 16px;
+  }
+  
+  .reviews p {
+  font-size: 16px;
+  }
+  
+  .portfolio h3 {
+  font-size: 20px;
+  }
+  
+  .portfolio li {
+  margin: 0 5px;
+  }
+  
+  .cta h2 {
+  font-size: 20px;
+  }
+  
+  footer {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  }
+  
+  .footer-content {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  
+  .social-media {
+  margin-bottom: 20px;
+  }
+  
+  .footer-content i {
+  margin-right: 0;
+  margin-bottom: 10px;
+  }
+  }

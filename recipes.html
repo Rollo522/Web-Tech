@@ -22,22 +22,6 @@
     </header>
     <main>
       <h2>Recipes</h2>
-      <form role="search" id="recipe-form">
-        <input id="recipe-search" type="text" placeholder="Search for recipes..." />
-        <select>
-          <option value="all">All Cuisines</option>
-          <option value="italian">Italian</option>
-          <option value="mexican">Mexican</option>
-          <option value="chinese">Chinese</option>
-        </select>
-        <select>
-          <option value="all">All Diets</option>
-          <option value="vegetarian">Vegetarian</option>
-          <option value="vegan">Vegan</option>
-          <option value="gluten-free">Gluten-Free</option>
-        </select>
-        <button id="recipe-search-button">Search</button>
-      </form>
       <ol class="recipes">
           <ul class="recipe-card">
             <img src="https://149777215.v2.pressablecdn.com/wp-content/uploads/2016/01/28514.jpg" alt="Spaghetti and Meatballs">
@@ -86,7 +70,22 @@
       </ul>
       
 </section>
-<section id="recipes">
+<form role="search" id="recipe-form">
+  <input id="recipe-search" type="text" placeholder="Search for recipes..." />
+  <select>
+    <option value="all">All Cuisines</option>
+    <option value="italian">Italian</option>
+    <option value="mexican">Mexican</option>
+    <option value="chinese">Chinese</option>
+  </select>
+  <select>
+    <option value="all">All Diets</option>
+    <option value="vegetarian">Vegetarian</option>
+    <option value="vegan">Vegan</option>
+    <option value="gluten-free">Gluten-Free</option>
+  </select>
+  <button id="recipe-search-button">Search</button>
+</form>
 </section>
 <footer>
   <div class="footer-content">
