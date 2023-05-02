@@ -21,80 +21,259 @@
       </nav>
     </header>
     <main>
-      <h2>Recipes</h2>
-      <ol class="recipes">
-          <ul class="recipe-card">
-            <img src="https://149777215.v2.pressablecdn.com/wp-content/uploads/2016/01/28514.jpg" alt="Spaghetti and Meatballs">
-          </div>
+      <section id="hero">
+        <img src="https://example.com/hero.jpg" alt="Delicious food">
+      </section>
+    
+      <section id="interactive-search">
+        <h2>Search for Recipes</h2>
+        <form role="search" id="recipe-form">
+          <input id="recipe-search" type="text" placeholder="Search for recipes..." required />
+          <select id="cuisine-select">
+            <option value="all">All Cuisines</option>
+            <option value="italian">Italian</option>
+            <option value="mexican">Mexican</option>
+            <option value="chinese">Chinese</option>
+          </select>
+          <select id="diet-select">
+            <option value="all">All Diets</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="gluten-free">Gluten-Free</option>
+          </select>
+          <button type="submit" id="recipe-search-button">Search</button>
+        </form>
+      </section>
+      
+      <section id="featured-recipes">``
+        <h2>Featured Recipes</h2>
+        <div class="recipe-card">
+          <img src="https://149777215.v2.pressablecdn.com/wp-content/uploads/2016/01/28514.jpg" alt="Spaghetti and Meatballs" width="600" height="400">
+          <div class="recipe-details">
             <h3>Spaghetti and Meatballs</h3>
             <p>A classic Italian dish of spaghetti and juicy meatballs in a rich tomato sauce.</p>
-            <div class="recipe-details">
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
             </div>
-          </li>
+          </div>
         </div>
+        <div class="recipe-card">
+          <img src="https://media.istockphoto.com/id/1349480436/photo/homemade-pork-carnitas-tacos.jpg?b=1&s=170667a&w=0&k=20&c=f14dpYZyaWo6LqTDPgm1jW1OxNW7Xj4fW---lNqn2aM=" alt="Tacos"width="600" height="400">
+          <div class="recipe-details">
+            <h3>Tacos</h3>
+            <p>A Mexican dish consisting of a corn or wheat tortilla filled with various ingredients, such as meat, beans, cheese, or vegetables.</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          </div>
+        </div>
+        <div class="recipe-card">
+          <img src="https://media.istockphoto.com/id/622068426/photo/stir-fry-with-chicken-mushrooms-broccoli-and-peppers.jpg?s=612x612&w=0&k=20&c=u5nlDN-OFrrrOiDxr4EYp5b1L4oUGdEcJdyla1HunAs=" alt="Stir Fry"width="600" height="400">
+          <div class="recipe-details">
+            <h3>Stir Fry</h3>
+            <p>A Chinese dish made with meat, vegetables, and sauce, cooked together in a wok or frying pan.</p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+          </div>
+        </div>
+      </section>
       
-          <h4>Ingredients:</h4>
-          <ul class="ingredient-list">
-            <li>1 pound spaghetti</li>
-            <li>1 pound ground beef</li>
-            <li>1 egg</li>
-            <li>1/2 cup breadcrumbs</li>
-            <li>1/4 cup grated parmesan</li>
-            <li>1 teaspoon salt</li>
-            <li>1/2 teaspoon black pepper</li>
-            <li>1/4 teaspoon garlic powder</li>
-            <li>1/4 teaspoon onion powder</li>
-            <li>1/4 teaspoon dried basil</li>
-            <li>1/4 teaspoon dried oregano</li>
-            <li>1 (28 ounce) can crushed tomatoes</li>
-          </ul>
-      
-          <h4>Instructions:</h4>
-          <ol class="instruction-list">
-            <li>Cook spaghetti according to package instructions until al dente. Drain and set aside.</li>
-            <li>In a large mixing bowl, combine ground beef, egg, breadcrumbs, parmesan cheese, salt, pepper, garlic powder, onion powder, basil, and oregano. Mix well.</li>
-            <li>Shape mixture into 2-inch balls.</li>
-            <li>In a large pan, heat some oil over medium heat. Add meatballs and cook until browned on all sides, about 10 minutes. Remove meatballs from pan and set aside.</li>
-            <li>In the same pan, add crushed tomatoes and bring to a boil. Reduce heat and let simmer for 10 minutes.</li>
-            <li>Add meatballs back into the pan and let cook in the sauce for an additional 10 minutes.</li>
-            <li>Serve meatballs and sauce over cooked spaghetti. Enjoy!</li>
-          </ol>
-        </li>
-      </ul>
-      
+      <section id="special-offers">
+    <h2>Special Offers</h2>
+    <div class="offer">
+      <img src="https://media.istockphoto.com/id/512175299/photo/3d-red-text-50-percent-off-on-crack-hole-floor.jpg?s=612x612&w=0&k=20&c=U88tg5dmtBGZ7IAx7bKua8P1Ypf7UjAtuoFS-MMWaeE=" alt="50% off"width="300" height="200">
+      <div class="offer-details">
+        <h3>50% off on all orders above $50</h3>
+        <p>Use code BITE50 at checkout to get 50% off on all orders above $50. Limited time offer.</p>
+      </div>
+    </div>
+    <div class="offer">
+      <img src="https://png.pngtree.com/template/20221102/ourlarge/pngtree-street-food-free-delivery-from-shops-image_1869925.jpg" alt="Free shipping"width="300" height="300">
+      <div class="offer-details">
+        <h3>Free shipping on all orders</h3>
+        <p>No minimum order required. Limited time offer.</p>
+      </div>
+    </div>
+  </section>
+  
+ 
+  
+  <section id="popular-recipes">
+    <h2>Popular Recipes</h2>
+    <div class="recipe-card">
+      <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80" alt="Pizza"width="600" height="400">
+      <div class="recipe-details">
+        <h3>Pizza</h3>
+        <p>A savory dish consisting of a round, flattened base of dough topped with tomato sauce, cheese, and various other ingredients, such as meats, vegetables, or herbs.</p>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+      </div>
+    </div>
+    <div class="recipe-card">
+      <img src="https://media.istockphoto.com/id/1332013247/photo/tasty-hamburger-with-french-fries.jpg?b=1&s=170667a&w=0&k=20&c=quLpaNbLuuAZT6GD2gNwlHej0DANXUYtbvKJPpct1nY=" alt="Burger"width="600" height="400">
+      <div class="recipe-details">
+        <h3>Burger</h3>
+        <p>A sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun.</p>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+    </div>
+    <div class="recipe-card">
+      <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?w=2000" alt="Salad"width="600" height="400">
+      <div class="recipe-details">
+        <h3>Salad</h3>
+        <p>A dish consisting of mixed greens, vegetables, and sometimes other ingredients, such as fruits, nuts, or cheese, typically served with a dressing.</p>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="recipes">
+  </section>
+
+  
+  <section id="blog">
+    <h2>From Our Blog</h2>
+    <div class="blog-post">
+      <img src="https://example.com/blog1.jpg" alt="Blog post 1">
+      <div class="post-details">
+        <h3>How to Make Perfect Fried Rice</h3>
+        <p>Learn how to make delicious fried rice with this step-by-step recipe. Tips for selecting the right rice, cooking the rice, and adding the perfect mix of vegetables and seasoning.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <div class="blog-post">
+      <img src="https://example.com/blog2.jpg" alt="Blog post 2">
+      <div class="post-details">
+        <h3>5 Healthy Breakfast Ideas</h3>
+        <p>Start your day off right with these healthy and delicious breakfast ideas. From smoothie bowls to avocado toast, there's something for everyone.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="video-tutorials">
+    <h2>Video Tutorials</h2>
+    <div class="video-card">
+      <video controls>
+        <source src="https://example.com/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-details">
+        <h3>How to Make Homemade Pasta</h3>
+        <p>Learn how to make fresh and delicious pasta at home with this easy-to-follow tutorial. From selecting the right flour to rolling and cutting the dough, this video covers all the basics.</p>
+      </div>
+    </div>
+    <div class="video-card">
+      <video controls>
+        <source src="https://example.com/video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-details">
+        <h3>How to Make a Classic Margherita Pizza</h3>
+        <p>Follow along with this step-by-step tutorial to make a delicious margherita pizza at home. From making the dough to adding the perfect toppings, this video covers it all.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="featured-ingredients">
+    <h2>Featured Ingredients</h2>
+    <div class="ingredient">
+      <img src="https://example.com/ingredient1.jpg"
+
+
+
+
+
+alt="Featured Ingredient 1">
+<div class="ingredient-details">
+<h3>Truffle Oil</h3>
+<p>Discover the rich and earthy flavor of truffle oil, a prized ingredient in many gourmet recipes. Learn about its origins, how it's made, and how to use it in your own cooking.</p>
+</div>
+</div>
+<div class="ingredient">
+<img src="https://example.com/ingredient2.jpg" alt="Featured Ingredient 2">
+<div class="ingredient-details">
+<h3>Kaffir Lime Leaves</h3>
+<p>Add a burst of citrusy flavor to your dishes with kaffir lime leaves. Learn about their uses in Thai and Southeast Asian cuisine, and how to incorporate them into your own cooking.</p>
+</div>
+</div>
 </section>
-<form role="search" id="recipe-form">
-  <input id="recipe-search" type="text" placeholder="Search for recipes..." />
-  <select>
-    <option value="all">All Cuisines</option>
-    <option value="italian">Italian</option>
-    <option value="mexican">Mexican</option>
-    <option value="chinese">Chinese</option>
-  </select>
-  <select>
-    <option value="all">All Diets</option>
-    <option value="vegetarian">Vegetarian</option>
-    <option value="vegan">Vegan</option>
-    <option value="gluten-free">Gluten-Free</option>
-  </select>
-  <button id="recipe-search-button">Search</button>
-</form>
-</section>
+
+php
+Copy code
+  <section id="social-media">
+    <h2>Connect with Us</h2>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <form>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  
+  <section id="awards">
+    <h2>Awards and Recognition</h2>
+    <div class="awards-list">
+      <div class="award">
+        <img src="https://example.com/award1.jpg" alt="Award 1">
+        <h3>Best Food Blog</h3>
+        <p>Named the best food blog of the year by the International Association of Food Critics.</p>
+      </div>
+      <div class="award">
+        <img src="https://example.com/award2.jpg" alt="Award 2">
+        <h3>Certified Organic</h3>
+        <p>We are proud to be certified organic by the USDA, ensuring that our recipes use only the highest-quality ingredients.</p>
+      </div>
+    </div>
+  </section>
+  
+</main>
+
 <footer>
   <div class="footer-content">
-    <ul>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Terms of Use</a></li>
-      <li><a href="#">Sitemap</a></li>
-    </ul>
-    <div class="social-media">
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Sitemap</a>
+    </div>
+    <div class="social-icons">
       <a href="#"><i class="fab fa-facebook"></i></a>
       <a href="#"><i class="fab fa-twitter"></i></a>
       <a href="#"><i class="fab fa-instagram"></i></a>
@@ -104,6 +283,6 @@
     <p>&copy; 2023 Bite Meals. All Rights Reserved</p>
   </div>
 </footer>
-<script src="script.js"></script>
-</body>
+  <script src="script.js"></script>
+  </body>
 </html>
