@@ -21,27 +21,10 @@
       </nav>
     </header>
 
-  <main>    
-      <section id="interactive-search">
-        <h2>Search for Recipes</h2>
-        <form role="search" id="recipe-form">
-          <input id="recipe-search" type="text" placeholder="Search for recipes..." required />
-          <select id="cuisine-select">
-            <option value="all">All Cuisines</option>
-            <option value="italian">Italian</option>
-            <option value="mexican">Mexican</option>
-            <option value="chinese">Chinese</option>
-          </select>
-          <select id="diet-select">
-            <option value="all">All Diets</option>
-            <option value="vegetarian">Vegetarian</option>
-            <option value="vegan">Vegan</option>
-            <option value="gluten-free">Gluten-Free</option>
-          </select>
-          <button type="submit" id="recipe-search-button">Search</button>
-        </form>
-      </section>
-      
+
+  <main>
+      <button class="cta-button" id="scroll-to-bottom-button">Go to Recipe Search</button>
+    </section>
       <section id="featured-recipes">
         <h2>Featured Recipes</h2>
         <div class="recipe-card">
@@ -89,15 +72,12 @@
       </section>
       
   <section id="special-offers">
-    <h2>Special Offers</h2>
-    
+    <h1>Special Offers</h1>
         <p>Get 50% off on all orders above $50 with code BITE50 at checkout or enjoy free shipping on all orders with no minimum required. Limited time offer.</p>
       <img src="https://media.istockphoto.com/id/512175299/photo/3d-red-text-50-percent-off-on-crack-hole-floor.jpg?s=612x612&w=0&k=20&c=U88tg5dmtBGZ7IAx7bKua8P1Ypf7UjAtuoFS-MMWaeE=" alt="50% off"width="300" height="200">
-      <div class="offer-details">
       </div>
     </div>
       <img src="https://png.pngtree.com/template/20221102/ourlarge/pngtree-street-food-free-delivery-from-shops-image_1869925.jpg" alt="Free shipping"width="300" height="300">
-      <div class="offer-details">
       </div>
     </div>
   </section>
@@ -161,23 +141,47 @@
 
 
 
-
-
 alt="Featured Ingredient 1">
-<div class="ingredient-details">
-<h3>Truffle Oil</h3>
-<p>Discover the rich and earthy flavor of truffle oil, a prized ingredient in many gourmet recipes. Learn about its origins, how it's made, and how to use it in your own cooking.</p>
-</div>
+  <div class="ingredient-details">
+    <h3>Truffle Oil</h3>
+      <p>Discover the rich and earthy flavor of truffle oil, a prized ingredient in many gourmet recipes. Learn about its origins, how it's made, and how to use it in your own cooking.</p>
+  </div>
 </div>
 <div class="ingredient">
-<img src="https://i.etsystatic.com/11742042/r/il/08145d/1759825083/il_fullxfull.1759825083_f3c2.jpg" alt="Featured Ingredient 2"width="500" height="400">
+  <img src="https://i.etsystatic.com/11742042/r/il/08145d/1759825083/il_fullxfull.1759825083_f3c2.jpg" alt="Featured Ingredient 2"width="500" height="400">
 <div class="ingredient-details">
-<h3>Kaffir Lime Leaves</h3>
-<p>Add a burst of citrusy flavor to your dishes with kaffir lime leaves. Learn about their uses in Thai and Southeast Asian cuisine, and how to incorporate them into your own cooking.</p>
-</div>
+  <h3>Kaffir Lime Leaves</h3>
+    <p>Add a burst of citrusy flavor to your dishes with kaffir lime leaves. Learn about their uses in Thai and Southeast Asian cuisine, and how to incorporate them into your own cooking.</p>
+  </div>
 </div>
 </section>
 
+
+<section id="search-recipes">
+  <h2>Search for Recipes</h2>
+  <form role="search" id="recipe-form">
+    <input id="recipe-search" type="text" placeholder="Search for recipes..." required />
+    <select id="cuisine-select">
+      <option value="all">All Cuisines</option>
+      <option value="italian">Italian</option>
+      <option value="mexican">Mexican</option>
+      <option value="chinese">Chinese</option>
+    </select>
+    <select id="diet-select">
+      <option value="all">All Diets</option>
+      <option value="vegetarian">Vegetarian</option>
+      <option value="vegan">Vegan</option>
+      <option value="gluten-free">Gluten-Free</option>
+    </select>
+    <button type="submit" id="recipe-search-button">Search</button>
+  </form>
+</section>
+
+
+<a id="bottom"></a>
+</main>
+
+<footer>
   <section id="social-media">
     <h2>Connect with Us</h2>
     <div class="social-icons">
@@ -194,12 +198,9 @@ alt="Featured Ingredient 1">
       </form>
     </div>
   </section>
-
-</main>
-
-<footer>
   <p>&copy; 2023 Delicious Recipes. All rights reserved. | <a href="contact-us.html">Contact Us</a></p>
 </footer>
 
 <script src="script.js"></script>
 </body>
+</html>

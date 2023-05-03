@@ -41,7 +41,15 @@ function listRecipes(Recipes) {
     document.body.appendChild(img);
 
     
+    
     //  create div content 
   
   }
 }
+
+const scrollToBottomButton = document.getElementById('scroll-to-bottom-button');
+const searchRecipesSection = document.getElementById('search-recipes');
+    
+scrollToBottomButton.addEventListener('click', () => {
+  searchRecipesSection.scrollIntoView({behavior: 'smooth'});
+});
